@@ -6,94 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <header>
+        <h1>
+            <img src="/images/logo-mercado-liebre.svg" alt="LOGO">
 
-        <img width="100%" src="/images/logo-mercado-liebre.svg" alt="LOGO">
-        <nav>
-            Lugar para poner la barra de busqueda
-        </nav>
+        </h1>
+
+
+        <input class="p-1" type="text" placeholder="Buscá productos por nombre, marcas o palabras clave" />
+
+
+
+
 
         <br>
 
-        Comprá en cuotas y sin tarjeta de crédito
-        <ul>
-            <li>Ofertas</li>
-            <li>Tiendas Oficiales</li>
-            <li>Vender</li>
-            <li>Ayuda</li>
+        <p> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito </p>
+        <nav>
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Crea tu cuenta </a> <i class="fas fa-id-card"></i></li>
+                <li><a href="#">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#">Mis Compras</a><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </nav>
 
-        </ul>
-        <ul>
-            <li>Creá tu cuenta</li>
-            <li>Ingresá</li>
-            <li>Mis Compras</li>
+        <div class="burger-menu">
 
-        </ul>
+            <i class="fas fa-bars"></i>
+        </div>
 
     </header>
 
-    <main>
+    <img src="/images/banner.jpg" alt="Promoción fiestas" width="100%" />
+
+    <main class="m-1">
+
         <section>
 
 
             <h3>Basado en su última visita</h3>
+            <div class="article">
+                <img src="/images/img-cafetera-moulinex.jpg" alt="CAFETERA" width="100%">
 
-            <img src="/images/img-cafetera-moulinex.jpg" alt="CAFETERA" width="100%"><br>
+                <p id="precios">$6.770</p>
+                <p id="descuentos">40% off</p>
+                <h3>Cafetera Moulinex</h3>
+            </div>
 
-            $6.770 <br>
-            40% off<br>
-            Cafetera Moulinex<br>
 
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%"><br>
 
-            $230.000 <br>
-            20% off<br>
-            MacBook Pro 2019<br>
+            <div class="article">
 
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy 10" width="100%"><br>
+                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%">
 
-            $70.500 <br>
-            10% off<br>
-            Samsung Galaxy S10<br>
+                <p class="text-xl">$230.000</p>
+                <p class="color-green text-lg">20% off</p>
+                <h3 class="text-lg">MacBook Pro 2019</h3>
+            </div>
+            <div class="article">
 
-            <img src="/images/img-tv-samsung-smart.jpg" alt="smartv" width="100%"><br>
+                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy 10" width="100%">
 
-            $23.200 <br>
-            5% off<br>
-            SmartTv Samsung 43"<br>
+                <p class="text-xl">$70.500</p>
+                <p class="color-green text-lg">10% off</p>
+                <h3 class="text-lg">Samsung Galaxy S10</h3>
+            </div>
+            <div class="article">
+
+                <img src="/images/img-tv-samsung-smart.jpg" alt="smartv" width="100%">
+
+                <p class="text-xl">$23.200</p>
+                <p class="color-green text-lg">5% off</p>
+                <h3 class="text-lg">SmartTv Samsung 43"</h3>
+            </div>
+
 
         </section>
         <br>
         <section>
             <h3>Ofertas</h3>
-            <img src="/images/img-cafetera-moulinex.jpg" alt="CAFETERA" width="100%"><br>
+            <div class="article"><img src="/images/img-cafetera-moulinex.jpg" alt="CAFETERA" width="100%">
 
-            $6.770 <br>
-            40% off<br>
-            Cafetera Moulinex<br>
+                <p id="precios">$6.770</p>
+                <p id="descuentos">40% off</p>
+                <h3>Cafetera Moulinex</h3>
+            </div>
 
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%"><br>
 
-            $230.000 <br>
-            20% off<br>
-            MacBook Pro 2019<br>
+            <div class="article">
+                <img src="/images/img-macbook-pro-2019.jpg" alt="macbook" width="100%">
 
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy 10" width="100%"><br>
+                <p class="text-xl">$230.000</p>
+                <p class="color-green text-lg">20% off</p>
+                <h3 class="text-lg">MacBook Pro 2019</h3>
+            </div>
+            <div class="article">
+                <img src="/images/img-samsung-galaxy-s10.jpg" alt="Galaxy 10" width="100%">
 
-            $70.500 <br>
-            10% off<br>
-            Samsung Galaxy S10<br>
+                <p class="text-xl">$70.500</p>
+                <p class="color-green text-lg">10% off</p>
+                <h3 class="text-lg">Samsung Galaxy S10</h3>
+            </div>
+            <div class="article">
 
-            <img src="/images/img-tv-samsung-smart.jpg" alt="smartv" width="100%"><br>
+                <img src="/images/img-tv-samsung-smart.jpg" alt="smartv" width="100%">
 
-            $23.200 <br>
-            5% off<br>
-            SmartTv Samsung 43"<br>
-            <br>
-
+                <p class="text-xl">$23.200</p>
+                <p class="color-green text-lg">5% off</p>
+                <h3 class="text-lg">SmartTv Samsung 43"</h3>
+            </div>
 
         </section>
 
@@ -103,19 +142,32 @@
     <footer>
 
         <section>
-            <strong>Pagá con tarjeta o en efectivo</strong><br>
-            Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en <br>
-            puntos de pago. ¡Y siempre es seguro! <br>
-            <br>
-            <strong>Envío gratis desde $ 2.500</strong> <br>
-            Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de <br>
-            productos. Es un beneficio de Mercado Puntos. <br>
-            <br>
-            <strong> Seguridad, de principio a fin</strong> <br>
-            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, <br>
-            porque estás siempre protegid@. <br>
-            <br>
-            <strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong>
+            <article>
+                <h2><i class="fas fa-credit-card"></i></h2>
+
+                <strong>Pagá con tarjeta o en efectivo</strong><br>
+                Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en <br>
+                puntos de pago. ¡Y siempre es seguro! <br>
+            </article>
+            <article>
+                <h2><i class="fas fa-gift"></i></h2>
+
+                <strong>Envío gratis desde $ 2.500</strong>
+                por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                Es un beneficio de Mercado Puntos.
+            </article>
+
+            <article>
+                <h2><i class="fas fa-user-shield"></i></h2>
+
+                <strong> Seguridad, de principio a fin</strong> <br>
+                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, <br>
+                porque estás siempre protegid@. <br>
+            </article>
+
+            <article>
+                <strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong>
+            </article>
 
 
         </section>
