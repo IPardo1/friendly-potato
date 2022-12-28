@@ -1,68 +1,266 @@
 body {
-    font-family: 'Roboto', sans-serif;
-
+    font-family: "Roboto";
 
 }
 
 
-h3 {
-    font-size: 24px;
+.bg-yellow {
+    background-color: #eac926;
 }
 
-
-#precios {
-    font-size: 18px;
+.bg-dark-grey {
+    background-color: #666;
 }
 
-#descuentos {
-    font-size: 16px;
-}
-
-header {
-    background-color: yellow;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.burger-menu {
-    width: 30px;
-    background-color: blue;
-    margin: auto;
-    text-align: center;
-}
-
-.m-1 {
-    width: 90%;
-    text-align: center;
-}
-
-.article {
-    margin-bottom: 10px;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
+.bg-grey {
     background-color: #ebebeb;
 }
 
-ul {
+.bg-blue {
+    background-color: #1259c3;
+}
+
+.bg-white {
+    background-color: white;
+}
+.color-blue{
+    color: #0022AA;
+}
+
+.color-green {
+    color: #39b54a;
+}
+
+.font-m {
+    font-size: 12px;
+}
+
+.font-lg {
+    font-size: 16px;
+}
+
+.font-xl {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.nav-link {
     text-decoration: none;
     color: inherit;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.vw-90 {
+    width: 90vw;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.b-1 {
+    border-style: solid;
+}
+
+.bt-1 {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border-grey {
+    border-color: #ebebeb;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color-white {
+    color: white;
+}
+
+.text-center {
     text-align: center;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.radius-1 {
+    border-radius: 5px;
 }
 
 .p-1 {
     padding: 8px;
 }
 
+.p-2 {
+    padding: 20px;
+  }
+
+  .align-center {
+    align-self: center;
+  }
+  .b-none {
+    border: none;
+  }
+  .outline-none {
+    outline: none;
+  }
+  .flex-grow {
+    flex-grow: 1;
+  }
+.py-1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+
+}
+
+
+.precio {
+    width: 30%;
+}
+
+.descuento {
+    width: 70%;
+}
+.mr-1 {
+    margin-right: 8px;
+  }
+
+.product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  
+  .truck-icon {
+    color: green;
+    border: green solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+  }
+  
+  .relative {
+    position: relative;
+  }
+
+.flex {
+    display: flex;
+    
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+.gap {
+    gap: 10px;
+  }
+
+.create-form {
+    padding: 20px 15px;
+    border: black 2px;
+    background-color: gray;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+    
+
+}
+
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px 8px;
+    margin-top: 20px;
+}
+
+.boton-formulario {
+    background-color: green;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.control{
+    width: 50%;
+    
+}
+#password{
+    width: 50%;
+    
+}
+.form-login{
+    
+    margin:auto;
+    margin-top: 30px;
+    width: 50%;
+    height: 50%;
+    border: solid 2px;
+    background-color: burlywood;
+    
+    
+}
+.name{
+    margin-left: 20px;
+}
+.password{
+    margin-left: 20px;
+}
+
+
+
+
 @media (min-width: 481px) {
     /* tablet */
+    .md-w-50 {
+      width: 48%;
+    }
   }
   
   @media (min-width: 769px) {
     /* laptop */
+    .lg-w-25 {
+      width: 23%;
+    }
+  
     .product-shadow {
       box-shadow: none;
     }
@@ -70,9 +268,43 @@ ul {
     .description {
       display: none;
     }
+
+    .product:hover .description{
+        display: block;
+    }
+    .product:hover {
+        border-style: solid;
+        border-width: 1px;
+    }
+    .product:hover i{
+
+        transform: rotate(90deg);
+        transition-duration: 1000ms;
+
+    }
+    .boton-formulario:hover{
+        background-color: #0022AA;
+
+    }
+    .w-33{
+        width: 33%;
+        margin-top: 10px;
+    }
+    .w-33:hover i{
+        color: #39b54a;
+    }
+    .copyright{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    
+   
+
+    
+    
   }
   
   @media (min-width: 1281px) {
     /* desktop */
   }
-
