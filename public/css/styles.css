@@ -231,15 +231,9 @@ body {
     
 }
 .form-login{
-    
     margin:auto;
-    margin-top: 30px;
-    width: 50%;
-    height: 50%;
-    border: solid 2px;
-    background-color: burlywood;
-    
-    
+    width: 80%;
+    background-color: #666 ;
 }
 .name{
 
